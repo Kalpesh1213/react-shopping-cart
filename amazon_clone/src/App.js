@@ -22,7 +22,7 @@ class App extends React.Component {
       sort: sort ,
       products: this.state.products
       .slice()
-      .sort(a, b) =>  
+      .sort((a, b) =>  
         sort === "lowest"
         ? a.price > b.price 
           ? 1 
