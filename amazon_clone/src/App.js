@@ -1,4 +1,4 @@
-// feature-1
+// feature
 
 import './index.css';
 
